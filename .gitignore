@@ -1,7 +1,8 @@
 .cache
 scalastyle-output.xml
 .classpath
-.idea
+.idea/*
+!.idea/vcs.xml
 .metadata
 .settings
 .project
@@ -22,3 +23,5 @@ build-targetatlassian-ide-plugin.xml
 *.ipr
 *.iws
 docs/_build
+**/.flattened-pom.xml
+**/dependency-reduced-pom.xml
